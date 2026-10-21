@@ -2,7 +2,7 @@ import java.util.Scanner;
 
 public class CalcularPerimetroAreaRectangulo {
 
-    private static final double FI = (1 + Math.sqrt(5)) / 2; // 1.6180339...
+    private static final double AU = (1 + Math.sqrt(5)) / 2; // 1.6180339...
     private static final double TOL = 0.02;
 
     public static void main(String[] args) {
@@ -75,7 +75,7 @@ public class CalcularPerimetroAreaRectangulo {
         }
         double mayor = Math.max(base, altura);
         double menor = Math.min(base, altura);
-        return Math.abs(mayor / menor - FI) < TOL;
+        return Math.abs(mayor / menor - AU) < TOL;
     }
 
     private static String esAureo(double base, double perimetro, double base2, double perimetro2) {
