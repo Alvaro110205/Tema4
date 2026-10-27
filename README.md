@@ -27,7 +27,7 @@
  *  código dejará de compilar justo antes de la entrega.
  *  No es una amenaza, es una predicción estadística.
  *
- *  ©Alvaro - Todos los derechos reservados
- *  (y las ojeras, también).
+ *  ©Komanche uchiha - Todos los derechos reservados
+ *  (Todo esta en el branch master).
  * ============================================================
  */
